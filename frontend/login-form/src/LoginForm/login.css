@@ -1,0 +1,95 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: #eef5ff;
+    
+}
+  
+.login-container {
+    width: 580px;
+    /* height: 600px; */
+    background: white;
+    margin: auto;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.login-container h1 {
+    text-align: center;
+}
+  
+.form-login {
+    width: 100%;
+}
+  
+.login-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+    align-items: center;
+}
+  
+.login-fields input {
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+  
+.login-p {
+
+    float: right;
+    margin-top: 20px;
+}
+.login-p a {
+    margin-right: 20px;
+}
+  
+.login-p p {
+    display: inline-block;
+    margin-bottom: 0;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+.login-p p:hover {
+    font-weight: 700;
+}
+.login-container button {
+    width: 100%;
+    height: 50px;
+    color: black;
+    background: white;
+    margin-top: 20px;
+    border: 2px solid black; 
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login-container button:hover {
+    color: white;
+    background-color: black;
+}
+.loginButton {
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+}
+  
